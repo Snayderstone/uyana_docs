@@ -1,20 +1,25 @@
-# Website
+# Uyana Docs
 
-This website is built using [Docusaurus](https://docusaurus.io/), a modern static website generator.
+Documentación oficial de Uyana construida con [Docusaurus](https://docusaurus.io/).
 
-## Installation
+## Requisitos
+
+- Node.js 20+
+- Yarn (recomendado) o npm
+
+## Instalación
 
 ```bash
 yarn
 ```
 
-## Local Development
+## Desarrollo local
 
 ```bash
 yarn start
 ```
 
-This command starts a local development server and opens up a browser window. Most changes are reflected live without having to restart the server.
+Abre `http://localhost:3000` y recarga automáticamente al editar archivos en `docs/`.
 
 ## Build
 
@@ -22,20 +27,10 @@ This command starts a local development server and opens up a browser window. Mo
 yarn build
 ```
 
-This command generates static content into the `build` directory and can be served using any static contents hosting service.
+Genera el contenido estático en la carpeta `build/` listo para servir en cualquier hosting.
 
-## Deployment
+## Estructura de la documentación
 
-Using SSH:
-
-```bash
-USE_SSH=true yarn deploy
-```
-
-Not using SSH:
-
-```bash
-GIT_USER=<Your GitHub username> yarn deploy
-```
-
-If you are using GitHub pages for hosting, this command is a convenient way to build the website and push to the `gh-pages` branch.
+- `docs/intro.md`: introducción y guía de contribución.
+- `docs/manual-usuario/*`: flujos de usuario y preguntas frecuentes.
+- `docs/manual-tecnico/*`: arquitectura, integraciones y despliegue.

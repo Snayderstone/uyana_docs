@@ -2,46 +2,22 @@
 sidebar_position: 1
 ---
 
-# Tutorial Intro
+# Bienvenido a la documentación de Uyana
 
-Let's discover **Docusaurus in less than 5 minutes**.
+Encuentra la guía oficial para comprender Uyana, aprender a usarla en tu día a día y consultar los aspectos técnicos de la plataforma.
 
-## Getting Started
+## Cómo navegar
 
-Get started by **creating a new site**.
+- **Manual de Usuario:** primeros pasos, flujos clave y respuestas a dudas frecuentes.
+- **Manual Técnico:** arquitectura, integraciones y lineamientos de despliegue.
 
-Or **try Docusaurus immediately** with **[docusaurus.new](https://docusaurus.new)**.
+## Requisitos para contribuir
 
-### What you'll need
+- Node.js 20+ si deseas clonar el repositorio y aportar contenido.
+- Yarn o npm para ejecutar los comandos de desarrollo.
 
-- [Node.js](https://nodejs.org/en/download/) version 20.0 or above:
-  - When installing Node.js, you are recommended to check all checkboxes related to dependencies.
+## Flujo de contribución
 
-## Generate a new site
-
-Generate a new Docusaurus site using the **classic template**.
-
-The classic template will automatically be added to your project after you run the command:
-
-```bash
-npm init docusaurus@latest my-website classic
-```
-
-You can type this command into Command Prompt, Powershell, Terminal, or any other integrated terminal of your code editor.
-
-The command also installs all necessary dependencies you need to run Docusaurus.
-
-## Start your site
-
-Run the development server:
-
-```bash
-cd my-website
-npm run start
-```
-
-The `cd` command changes the directory you're working with. In order to work with your newly created Docusaurus site, you'll need to navigate the terminal there.
-
-The `npm run start` command builds your website locally and serves it through a development server, ready for you to view at http://localhost:3000/.
-
-Open `docs/intro.md` (this page) and edit some lines: the site **reloads automatically** and displays your changes.
+1. Clona el repositorio y ejecuta `yarn` para instalar dependencias.
+2. Usa `yarn start` para ver los cambios en vivo en `http://localhost:3000`.
+3. Crea o actualiza archivos en `docs/` siguiendo la estructura actual de secciones.
